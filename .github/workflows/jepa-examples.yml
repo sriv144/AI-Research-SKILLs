@@ -1,6 +1,10 @@
 name: JEPA examples
 
 on:
+  push:
+    paths:
+      - '01-model-architecture/learning-jepa/**'
+      - '.github/workflows/jepa-examples.yml'
   pull_request:
     paths:
       - '01-model-architecture/learning-jepa/**'
